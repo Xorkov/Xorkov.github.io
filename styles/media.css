@@ -1,0 +1,21 @@
+
+@media (max-width: 575px) {
+ }
+@media (min-width: 576px) and (max-width: 767px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper{
+        max-width: 755px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .wrapper{
+        max-width: 975px;
+    }
+    .posts__cards {
+        
+        justify-content: space-around;
+    }
+}
+@media (min-width: 1200px)  {
+}
