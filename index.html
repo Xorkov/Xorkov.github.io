@@ -13,9 +13,11 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/zeroing.css" />
     <link rel="stylesheet" href="./styles/media.css" />
+
+    <script defer src="./js/main.js"></script>
   </head>
   <body>
-    <header>
+    <header class="header open">
       <div class="header__top">
         <p class="header__top__text">A Webflow template for SaaS products.</p>
         <a class="header__top__link" href="#">See all templates ></a>
@@ -24,13 +26,18 @@
         <div class="wrapper">
           <div class="header__main__block">
             <nav class="header__main__nav">
+              <button class="header__burger__btn" id="burger">
+                <span></span><span></span><span></span>
+              </button>
               <a class="header__main__nav__link" href="#"
                 ><img src="/images/logo.png" alt="Лого"
               /></a>
+              <div class="header__menu__list">
               <a class="header__main__nav__link" href="#">Features</a>
               <a class="header__main__nav__link" href="#">Pricing</a>
               <a class="header__main__nav__link" href="#">Intergrations</a>
               <a class="header__main__nav__link" href="#">Learn</a>
+            </div>
             </nav>
             <div class="header__main__login">
               <a class="header__main__login__link" href="#">Sign in</a>
@@ -125,24 +132,38 @@
           <div class="about__block">
             <div class="about__block__items">
               <div class="about__block__item about__block__item__first">
+                <button class="collapse">
                 <h4
                   class="about__block__item__topic about__block__item__topic_active"
                 >
                   Anti-loss technology
-                </h4>
+                </h4></button>
                 <p class="about__block__item__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
               <div class="about__block__item">
-                <h4 class="about__block__item__topic">Exchange easily</h4>
+                <button class="collapse"> <h4 class="about__block__item__topic">Exchange easily</h4></button>
+                <p class="about__block__item__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
               </div>
               <div class="about__block__item">
-                <h4 class="about__block__item__topic">Fully encrypted</h4>
+               <button class="collapse"> <h4 class="about__block__item__topic">Fully encrypted</h4></button>
+                <p class="about__block__item__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+             
               </div>
               <div class="about__block__item">
-                <h4 class="about__block__item__topic">Plenty of options</h4>
+               <button class="collapse"> <h4 class="about__block__item__topic">Plenty of options</h4> </button>
+                <p class="about__block__item__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
               </div>
             </div>
             <img
