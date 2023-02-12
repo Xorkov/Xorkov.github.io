@@ -13,6 +13,7 @@ a:visited,a:focus,a:hover{
     /* padding: 17px 0px 16px 0px; */
     height: 47px;
     margin: auto 0;
+    flex-wrap: wrap;
 }
 
 .header__top__text{
